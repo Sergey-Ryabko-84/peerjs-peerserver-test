@@ -1,3 +1,3 @@
 import { PeerServer } from "peer"
 
-PeerServer({ path: "/" })
+PeerServer({ port: 443, path: "/" })
